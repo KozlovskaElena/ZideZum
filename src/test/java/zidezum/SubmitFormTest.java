@@ -19,5 +19,12 @@ public class SubmitFormTest extends BaseTest {
         applyToDrivePage.inputLastName(user.getLastName());
         applyToDrivePage.inputEmail(user.getEmail());
         applyToDrivePage.inputPhoneNumber(user.getPhoneNumber());
+//        applyToDrivePage.selectAreaByIndex(2);
+        applyToDrivePage.selectArea("Cali");
+        applyToDrivePage.inputReffealCode("123");
+
+        driver.switchTo().defaultContent();
+
+        applyToDrivePage.clickCareerButton();
     }
 }

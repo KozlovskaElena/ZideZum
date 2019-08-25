@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edec388f-10ac-4c84-8b6e-94664670f22b" name="Default Changelist" comment="" />
+    <list default="true" id="edec388f-10ac-4c84-8b6e-94664670f22b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zidezum/ApplyToDrivePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zidezum/ApplyToDrivePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zidezum/SubmitFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zidezum/SubmitFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zidezum/ApplyToDrivePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zidezum/ApplyToDrivePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/zidezum/SubmitFormTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/zidezum/SubmitFormTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PYlsXSvNOChmZD787lbzvpcAGd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -38,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubmitFormTest">
+  <component name="RunManager" selected="JUnit.NoSubmitEmptyFieldsTest.testNoSubmitEmptyFields">
     <configuration name="ApplyToDriveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comZidezum" />
       <extension name="coverage">
@@ -50,6 +57,37 @@
       <option name="PACKAGE_NAME" value="zidezum" />
       <option name="MAIN_CLASS_NAME" value="zidezum.ApplyToDriveTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoSubmitEmptyFieldsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comZidezum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zidezum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zidezum" />
+      <option name="MAIN_CLASS_NAME" value="zidezum.NoSubmitEmptyFieldsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoSubmitEmptyFieldsTest.testNoSubmitEmptyFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comZidezum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zidezum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zidezum" />
+      <option name="MAIN_CLASS_NAME" value="zidezum.NoSubmitEmptyFieldsTest" />
+      <option name="METHOD_NAME" value="testNoSubmitEmptyFields" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,6 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NoSubmitEmptyFieldsTest.testNoSubmitEmptyFields" />
+        <item itemvalue="JUnit.NoSubmitEmptyFieldsTest" />
         <item itemvalue="JUnit.SubmitFormTest" />
         <item itemvalue="JUnit.ApplyToDriveTest" />
       </list>
@@ -88,5 +128,18 @@
       <updated>1566059117450</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
